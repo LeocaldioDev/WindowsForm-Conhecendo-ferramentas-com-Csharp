@@ -35,5 +35,10 @@ namespace CFB_Cursos_Aula
         {
             pictureBox1.Image = Properties.Resources.assedio;
         }
+
+        private void F_PictureBox_arquivo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

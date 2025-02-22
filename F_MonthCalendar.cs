@@ -26,6 +26,9 @@ namespace CFB_Cursos_Aula
 
         }
 
-  
+        private void F_MonthCalendar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -45,6 +45,7 @@
             this.Controls.Add(this.tb_Tela2);
             this.Name = "TelaVisualizacao";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TelaVisualizacao_FormClosed);
+            this.Load += new System.EventHandler(this.TelaVisualizacao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

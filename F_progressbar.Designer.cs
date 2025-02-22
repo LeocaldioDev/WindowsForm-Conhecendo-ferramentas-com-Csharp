@@ -99,6 +99,7 @@
             this.Controls.Add(this.progressBar1);
             this.Name = "F_progressbar";
             this.Text = "F_progressbar";
+            this.Load += new System.EventHandler(this.F_progressbar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

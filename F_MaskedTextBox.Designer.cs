@@ -94,6 +94,7 @@
             this.Controls.Add(this.mtb_1);
             this.Name = "F_MaskedTextBox";
             this.Text = "F_MaskedTextBox";
+            this.Load += new System.EventHandler(this.F_MaskedTextBox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

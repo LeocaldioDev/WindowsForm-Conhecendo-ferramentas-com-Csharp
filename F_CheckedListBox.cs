@@ -70,5 +70,10 @@ namespace CFB_Cursos_Aula
             tb_Adicionartransporte.Clear();
             tb_Adicionartransporte.Focus();
         }
+
+        private void F_CheckedListBox_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

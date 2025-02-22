@@ -40,7 +40,6 @@
             this.MC_Principal.Location = new System.Drawing.Point(29, 27);
             this.MC_Principal.Name = "MC_Principal";
             this.MC_Principal.TabIndex = 0;
-            
             // 
             // btn_obterdata
             // 
@@ -85,6 +84,7 @@
             this.Controls.Add(this.MC_Principal);
             this.Name = "F_MonthCalendar";
             this.Text = "F_MonthCalendar";
+            this.Load += new System.EventHandler(this.F_MonthCalendar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

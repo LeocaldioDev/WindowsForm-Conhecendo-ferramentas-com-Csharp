@@ -35,7 +35,7 @@ namespace CFB_Cursos_Aula
             ListViewItem L = new ListViewItem(lvArray);
             if(string.IsNullOrEmpty(tb_id.Text) || string.IsNullOrEmpty(tb_produto.Text)
                 || string.IsNullOrEmpty(tb_quantidade.Text)|| string.IsNullOrEmpty(tb_preco.Text)){
-                MessageBox.Show("um dos campos esta vazio seu merda!");
+                MessageBox.Show("um dos campos esta vazio!");
             }
             else
             {

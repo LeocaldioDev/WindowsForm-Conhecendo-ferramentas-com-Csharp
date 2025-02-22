@@ -80,6 +80,7 @@
             this.Controls.Add(this.trackBar1);
             this.Name = "F_TrackBar";
             this.Text = "F_TrackBar";
+            this.Load += new System.EventHandler(this.F_TrackBar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -43,5 +43,10 @@ namespace CFB_Cursos_Aula
             Process.Start(e.Link.LinkData.ToString());
             e.Link.Visited=true;
         }
+
+        private void F_LinkLabel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

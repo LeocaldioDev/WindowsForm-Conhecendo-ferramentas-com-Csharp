@@ -138,6 +138,7 @@
             this.Controls.Add(this.treeView1);
             this.Name = "F_TreeView";
             this.Text = "F_TreeView";
+            this.Load += new System.EventHandler(this.F_TreeView_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -68,5 +68,10 @@ namespace CFB_Cursos_Aula
                 MessageBox.Show("Nada selecionado", "vazio", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void F_TreeView_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

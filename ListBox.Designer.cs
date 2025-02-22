@@ -115,6 +115,7 @@
             this.Controls.Add(this.lb_carros);
             this.Name = "ListBox";
             this.Text = "ListBox";
+            this.Load += new System.EventHandler(this.ListBox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

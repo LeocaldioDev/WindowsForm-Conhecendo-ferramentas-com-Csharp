@@ -16,5 +16,10 @@ namespace CFB_Cursos_Aula
         {
             InitializeComponent();
         }
+
+        private void F_ToolStripContainer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

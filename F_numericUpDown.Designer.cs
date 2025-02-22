@@ -73,6 +73,7 @@
             this.Controls.Add(this.numericUpDown1);
             this.Name = "F_numericUpDown";
             this.Text = "F_numericUpDown";
+            this.Load += new System.EventHandler(this.F_numericUpDown_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

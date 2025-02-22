@@ -46,5 +46,10 @@ namespace CFB_Cursos_Aula
 
             }
         }
+
+        private void F_MaskedTextBox_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

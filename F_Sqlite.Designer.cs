@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // F_Sqlite
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "F_Sqlite";
             this.Text = "F_Sqlite";
+            this.Load += new System.EventHandler(this.F_Sqlite_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

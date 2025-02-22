@@ -79,6 +79,7 @@
             this.Controls.Add(this.button1);
             this.Name = "F_BackGroundWorker";
             this.Text = "F_BackGroundWorker";
+            this.Load += new System.EventHandler(this.F_BackGroundWorker_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

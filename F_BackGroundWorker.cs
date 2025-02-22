@@ -52,5 +52,10 @@ namespace CFB_Cursos_Aula
                 backgroundWorker1.RunWorkerAsync();
             }
         }
+
+        private void F_BackGroundWorker_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

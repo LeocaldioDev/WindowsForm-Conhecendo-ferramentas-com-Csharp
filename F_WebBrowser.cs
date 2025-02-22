@@ -89,5 +89,10 @@ namespace CFB_Cursos_Aula
         {
             home = tb_barrapesquisa.Text;
         }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
     }
 }

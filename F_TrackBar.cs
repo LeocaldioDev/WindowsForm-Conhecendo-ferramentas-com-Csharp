@@ -37,5 +37,10 @@ namespace CFB_Cursos_Aula
             }
             
         }
+
+        private void F_TrackBar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

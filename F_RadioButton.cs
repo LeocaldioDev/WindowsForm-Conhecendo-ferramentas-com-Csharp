@@ -41,6 +41,11 @@ namespace CFB_Cursos_Aula
             MessageBox.Show(txt);    
 
         }
+
+        private void F_RadioButton_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

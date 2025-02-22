@@ -271,6 +271,9 @@
     <EmbeddedResource Include="F_SplitContainer.resx">
       <DependentUpon>F_SplitContainer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_Sqlite.resx">
+      <DependentUpon>F_Sqlite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_TabControl.resx">
       <DependentUpon>F_TabControl.cs</DependentUpon>
     </EmbeddedResource>

@@ -26,5 +26,10 @@ namespace CFB_Cursos_Aula
 
 
         }
+
+        private void TelaVisualizacao_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

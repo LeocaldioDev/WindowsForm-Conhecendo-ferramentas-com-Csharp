@@ -76,6 +76,7 @@
             this.Controls.Add(this.ll_Canal);
             this.Name = "F_LinkLabel";
             this.Text = "F_LinkLabel";
+            this.Load += new System.EventHandler(this.F_LinkLabel_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

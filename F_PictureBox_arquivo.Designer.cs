@@ -107,6 +107,7 @@
             this.Controls.Add(this.label1);
             this.Name = "F_PictureBox_arquivo";
             this.Text = "F_PictureBox_arquivo";
+            this.Load += new System.EventHandler(this.F_PictureBox_arquivo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

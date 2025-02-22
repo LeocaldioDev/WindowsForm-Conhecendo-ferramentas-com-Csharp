@@ -359,6 +359,7 @@
             this.Name = "FormularioPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario_Principal";
+            this.Load += new System.EventHandler(this.FormularioPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.CMS_principal.ResumeLayout(false);

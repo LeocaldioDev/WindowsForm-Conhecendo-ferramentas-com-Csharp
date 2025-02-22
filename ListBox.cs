@@ -67,6 +67,10 @@ namespace CFB_Cursos_Aula
             Atualizar();
         }
 
+        private void ListBox_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

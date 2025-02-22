@@ -26,5 +26,10 @@ namespace CFB_Cursos_Aula
                     numericUpDown1.Value = int.Parse(tb_valor.Text);
 
         }
+
+        private void F_numericUpDown_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

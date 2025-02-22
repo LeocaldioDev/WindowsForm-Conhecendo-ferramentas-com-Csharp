@@ -193,5 +193,10 @@ namespace CFB_Cursos_Aula
             F_Sqlite sql = new F_Sqlite();
             sql.Show();
         }
+
+        private void FormularioPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

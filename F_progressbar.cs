@@ -48,5 +48,10 @@ namespace CFB_Cursos_Aula
             }
 
         }
+
+        private void F_progressbar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

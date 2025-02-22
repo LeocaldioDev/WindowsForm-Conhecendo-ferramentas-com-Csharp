@@ -121,6 +121,7 @@
             this.Controls.Add(this.clb_Veiculos);
             this.Name = "F_CheckedListBox";
             this.Text = "F_CheckedListBox";
+            this.Load += new System.EventHandler(this.F_CheckedListBox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
